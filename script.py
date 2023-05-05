@@ -121,4 +121,4 @@ def update_graph(chart_type, data_type, glacier):
 
 # Run the app
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(host='0.0.0.0', debug=True)
