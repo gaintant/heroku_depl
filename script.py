@@ -174,4 +174,5 @@ def update_table(data_type, glacier, year_range):
 
 # Run the app
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(host='0.0.0.0', debug=True)
+
